@@ -1,0 +1,103 @@
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\Database1.mdf
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\Database1_log.ldf
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\VDOLPZZZ.exe.config
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\VDOLPZZZ.exe
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\VDOLPZZZ.pdb
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\EntityFramework.dll
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\EntityFramework.xml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.csproj.AssemblyReference.cache
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\MainWindow.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\MainPage.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\sprav.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\ychet.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\App.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ_Content.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ_MarkupCompile.cache
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ_MarkupCompile.lref
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\MainWindow.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\MainPage.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\sprav.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\ychet.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.g.resources
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.Properties.Resources.resources
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.csproj.GenerateResource.cache
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.csproj.CoreCompileInputs.cache
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.csproj.CopyComplete
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.exe
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.pdb
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\addYchet.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\addYchet.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\addSprav.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\addSprav.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\sort.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\sort.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt1.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt2.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt1.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt2.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\Poisk.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\Poisk.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\Poiskprod.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\Poiskprod.baml
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\tablepoisk.g.cs
+C:\Users\kakor\OneDrive\Рабочий стол\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\tablepoisk.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\addSprav.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\addYchet.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt1.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt2.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\MainPage.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\otchetExcel.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\Poisk.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\Poiskprod.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\sort.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\sprav.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\tablepoisk.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\ychet.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\App.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ_Content.g.cs
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ_MarkupCompile.cache
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ_MarkupCompile.lref
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.exe
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.pdb
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\Database1.mdf
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\Database1_log.ldf
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\VDOLPZZZ.exe.config
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\VDOLPZZZ.exe
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\VDOLPZZZ.pdb
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\addSprav.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\addYchet.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt1.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\filt2.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\MainPage.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\otchetExcel.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\Poisk.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\Poiskprod.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\sort.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\sprav.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\tablepoisk.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\Pages\ychet.baml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.g.resources
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.Properties.Resources.resources
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.csproj.GenerateResource.cache
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\obj\Debug\VDOLPZZZ.csproj.Up2Date
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\itextsharp.dll
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\itextsharp.xml
+C:\Users\user\Desktop\VDOLPZZZ\VDOLPZZZ\bin\Debug\ru\EntityFramework.SqlServer.resources.dll

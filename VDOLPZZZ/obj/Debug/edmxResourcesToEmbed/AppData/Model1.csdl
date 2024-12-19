@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Database1Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Spravochnaya" EntityType="Database1Model.Spravochnaya" />
+    <EntitySet Name="Ychetnai" EntityType="Database1Model.Ychetnai" />
+    <AssociationSet Name="FK_Ychetnai_Spravochnaya" Association="Database1Model.FK_Ychetnai_Spravochnaya">
+      <End Role="Spravochnaya" EntitySet="Spravochnaya" />
+      <End Role="Ychetnai" EntitySet="Ychetnai" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Spravochnaya">
+    <Key>
+      <PropertyRef Name="Kod_Predpriytie" />
+    </Key>
+    <Property Name="Kod_Predpriytie" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Naimenovani" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FIO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Ychetnai" Relationship="Database1Model.FK_Ychetnai_Spravochnaya" FromRole="Spravochnaya" ToRole="Ychetnai" />
+  </EntityType>
+  <EntityType Name="Ychetnai">
+    <Key>
+      <PropertyRef Name="Nomer_Zapisi" />
+    </Key>
+    <Property Name="Nomer_Zapisi" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kod_Predpriytie" Type="Int32" Nullable="false" />
+    <Property Name="Naimenovanit_Prodykcie" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kolichestvo" Type="Int32" Nullable="false" />
+    <Property Name="Cena" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Spravochnaya" Relationship="Database1Model.FK_Ychetnai_Spravochnaya" FromRole="Ychetnai" ToRole="Spravochnaya" />
+  </EntityType>
+  <Association Name="FK_Ychetnai_Spravochnaya">
+    <End Type="Database1Model.Spravochnaya" Role="Spravochnaya" Multiplicity="1" />
+    <End Type="Database1Model.Ychetnai" Role="Ychetnai" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Spravochnaya">
+        <PropertyRef Name="Kod_Predpriytie" />
+      </Principal>
+      <Dependent Role="Ychetnai">
+        <PropertyRef Name="Kod_Predpriytie" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

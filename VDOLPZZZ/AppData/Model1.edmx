@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище Database1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Spravochnaya">
+          <Key>
+            <PropertyRef Name="Kod_Predpriytie" />
+          </Key>
+          <Property Name="Kod_Predpriytie" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Naimenovani" Type="nvarchar" MaxLength="50" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="50" />
+          <Property Name="FIO" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Ychetnai">
+          <Key>
+            <PropertyRef Name="Nomer_Zapisi" />
+          </Key>
+          <Property Name="Nomer_Zapisi" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Kod_Predpriytie" Type="int" Nullable="false" />
+          <Property Name="Naimenovanit_Prodykcie" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Kolichestvo" Type="int" Nullable="false" />
+          <Property Name="Cena" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Ychetnai_Spravochnaya">
+          <End Role="Spravochnaya" Type="Self.Spravochnaya" Multiplicity="1" />
+          <End Role="Ychetnai" Type="Self.Ychetnai" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Spravochnaya">
+              <PropertyRef Name="Kod_Predpriytie" />
+            </Principal>
+            <Dependent Role="Ychetnai">
+              <PropertyRef Name="Kod_Predpriytie" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище Database1ModelContainer">
+          <EntitySet Name="Spravochnaya" EntityType="Self.Spravochnaya" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Ychetnai" EntityType="Self.Ychetnai" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Ychetnai_Spravochnaya" Association="Self.FK_Ychetnai_Spravochnaya">
+            <End Role="Spravochnaya" EntitySet="Spravochnaya" />
+            <End Role="Ychetnai" EntitySet="Ychetnai" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="Database1Entities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Spravochnaya" EntityType="Database1Model.Spravochnaya" />
+          <EntitySet Name="Ychetnai" EntityType="Database1Model.Ychetnai" />
+          <AssociationSet Name="FK_Ychetnai_Spravochnaya" Association="Database1Model.FK_Ychetnai_Spravochnaya">
+            <End Role="Spravochnaya" EntitySet="Spravochnaya" />
+            <End Role="Ychetnai" EntitySet="Ychetnai" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Spravochnaya">
+          <Key>
+            <PropertyRef Name="Kod_Predpriytie" />
+          </Key>
+          <Property Name="Kod_Predpriytie" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Naimenovani" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Adres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FIO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Ychetnai" Relationship="Database1Model.FK_Ychetnai_Spravochnaya" FromRole="Spravochnaya" ToRole="Ychetnai" />
+        </EntityType>
+        <EntityType Name="Ychetnai">
+          <Key>
+            <PropertyRef Name="Nomer_Zapisi" />
+          </Key>
+          <Property Name="Nomer_Zapisi" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Kod_Predpriytie" Type="Int32" Nullable="false" />
+          <Property Name="Naimenovanit_Prodykcie" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Kolichestvo" Type="Int32" Nullable="false" />
+          <Property Name="Cena" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Spravochnaya" Relationship="Database1Model.FK_Ychetnai_Spravochnaya" FromRole="Ychetnai" ToRole="Spravochnaya" />
+        </EntityType>
+        <Association Name="FK_Ychetnai_Spravochnaya">
+          <End Type="Database1Model.Spravochnaya" Role="Spravochnaya" Multiplicity="1" />
+          <End Type="Database1Model.Ychetnai" Role="Ychetnai" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Spravochnaya">
+              <PropertyRef Name="Kod_Predpriytie" />
+            </Principal>
+            <Dependent Role="Ychetnai">
+              <PropertyRef Name="Kod_Predpriytie" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Database1ModelContainer" CdmEntityContainer="Database1Entities1">
+          <EntitySetMapping Name="Spravochnaya">
+            <EntityTypeMapping TypeName="Database1Model.Spravochnaya">
+              <MappingFragment StoreEntitySet="Spravochnaya">
+                <ScalarProperty Name="FIO" ColumnName="FIO" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Naimenovani" ColumnName="Naimenovani" />
+                <ScalarProperty Name="Kod_Predpriytie" ColumnName="Kod_Predpriytie" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ychetnai">
+            <EntityTypeMapping TypeName="Database1Model.Ychetnai">
+              <MappingFragment StoreEntitySet="Ychetnai">
+                <ScalarProperty Name="Cena" ColumnName="Cena" />
+                <ScalarProperty Name="Kolichestvo" ColumnName="Kolichestvo" />
+                <ScalarProperty Name="Naimenovanit_Prodykcie" ColumnName="Naimenovanit_Prodykcie" />
+                <ScalarProperty Name="Kod_Predpriytie" ColumnName="Kod_Predpriytie" />
+                <ScalarProperty Name="Nomer_Zapisi" ColumnName="Nomer_Zapisi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
